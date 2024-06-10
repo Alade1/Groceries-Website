@@ -19,7 +19,7 @@ header .header-container {
     padding-left: 3rem;
     padding-right: 3rem;
     border-bottom: 1px solid gray;
-    padding-bottom : 8px;
+    padding-bottom: 8px;
 }
 
 .fixed-header, .header-container-side, .naira, .signin, .signup {
@@ -48,4 +48,49 @@ header .header-container {
     font-size: 14px; /* Adjust size as needed */
     color: gray; /* Adjust color as needed */
     padding: 0; /* Adjust padding to control space around the separator */
+}
+
+.currency-dropdown {
+    position: relative;
+}
+
+.currency-dropdown .naira {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.currency-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 10;
+}
+
+.currency-dropdown .dropdown-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.currency-dropdown .dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.currency-dropdown .dropdown-menu li a:hover {
+    background: #f0f0f0;
+}
+
+.currency-dropdown:hover .dropdown-menu {
+    display: block;
 }
