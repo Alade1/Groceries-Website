@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+    font-family: var(--body-fonts);
+    color: var(--main-text-color);
+}
+
+:root {
+    /* Colors */
+    --main-theme-bg: #4aa02c;
+    --main-text-color: gray;
+    --btn-bg: #4aa02c;
+    --body-fonts: 'Poppins', sans-serif;
+}
+
+header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: 1px solid gray;
+    padding-bottom : 8px;
+}
+
+.fixed-header, .header-container-side, .naira, .signin, .signup {
+    font-size: 12px;
+}
+
+.header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust gap between elements if needed */
+}
+
+.sign a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.separator {
+    font-size: 14px; /* Adjust size as needed */
+    color: gray; /* Adjust color as needed */
+    padding: 0; /* Adjust padding to control space around the separator */
+}
