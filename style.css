@@ -94,3 +94,86 @@ header .header-container {
 .currency-dropdown:hover .dropdown-menu {
     display: block;
 }
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+.header-second-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;  
+    padding-top: 15px; 
+}
+.search{
+    position: relative;
+}
+.input-nav{
+    width: 300px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 4px;
+    border: 30%;
+}
+.input-nav::placeholder {
+    color: #999; /* Change the color of the placeholder text */
+    font-size:12px; /* Optional: Make the placeholder text italic */
+    opacity: 1; /* Optional: Ensure the placeholder text is fully opaque */
+    font-family: var(--body-fonts);
+    padding-left: 25px;
+    outline: none;
+}
+.input-nav:focus::placeholder {
+    color: transparent; 
+}
+.search-icon i {
+    position: absolute;
+    left: 5px;
+    padding-top:10px;
+
+}
+.search-button{
+    height: 33px;
+    width: 80px;
+    font-family: 'poppins';
+    background-color: #4aa02c;
+    border: none;
+    border-radius: 2px;
+    position:absolute;
+    right: 0.5px;
+}
+.like-shop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.like-shop i{
+    font-size: 22px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: black;
+    height: 40px;
+    color:white;
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+}
+.list-items ul{
+    display:flex;
+    align-items: center;
+    gap:40px;
+    list-style: none;
+
+}
+.list-items ul a{
+    text-decoration: none;
+    color: white;
+}
+
+
