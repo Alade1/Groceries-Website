@@ -180,7 +180,7 @@ header .header-container {
     padding-right:3rem;
     padding-top: 30px;
     background-color: #D3D3D3;
-    height: 560px;
+    height: 600px;
     margin-top:30px;
     margin-left: 45px;
     margin-right:45px;
@@ -210,9 +210,10 @@ header .header-container {
     font-weight: 600;
 }
 .sale{
-    font-size: 20px;
+    font-size: 25px;
     color:black;
     font-family: var(--body-fonts);
+    font-weight: 500;
 }
 .free{
     font-size: 12px;
@@ -230,5 +231,67 @@ header .header-container {
     width:120px;
 
 }
+.hero-assurance-1, .hero-assurance-2, .hero-assurance-3 , .hero-assurance-4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.hero-assurance-1 span{
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+.hero-assurance-1 p{
+    font-size: 11px;
+}
+.hero-assurance-2 span{
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+.hero-assurance-3 span{
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+.hero-assurance-4 span{
+    font-weight: 600;
+    color: black;
+    font-size: 13px;
+}
+.hero-assurance-2 p{
+    font-size: 11px;
+}
+.hero-assurance-3 p{
+    font-size: 11px;
+}
+.hero-assurance-4 p{
+    font-size: 11px;
+}
+.hero-assurance{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: whitesmoke;
+    padding-top:10px;
+    position: relative;
+    bottom: 40px;
+    margin-left: 4rem;
+    margin-right:4rem;
+    border-radius: 7px;
+
+}
+.hero-assurance i{
+    font-size: 40px;
+    color: #4aa02c;
+}
+
+
+
+
+
 
 
