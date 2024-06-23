@@ -289,6 +289,65 @@ header .header-container {
     color: #4aa02c;
 }
 
+.categories{
+    text-align: center;
+}
+.categories .types{
+ font-size: 20px;
+ color:var(--main-theme-bg);
+ font-weight: 700;
+}
+.categories .product{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+} 
+.Gas{
+    height: 150px;
+    width:180px;
+    border:none;
+}
+.category-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.category-image-1,.category-image-2,.category-image-3,.category-image-4,.category-image-5{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.category-image-1 p , .category-image-2 p, .category-image-3 p, .category-image-4 p, .category-image-5 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color:black;
+    font-weight: 500;
+
+}
+.featured-product{
+    text-align: center;
+}
+.feature{
+    font-size: 20px;
+ color:var(--main-theme-bg);
+ font-weight: 700;
+
+}
+.products{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+
+
+
 
 
 
