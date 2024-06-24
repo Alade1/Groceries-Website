@@ -275,7 +275,7 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap:20px;
+    gap:80px;
     padding-left: 3rem;
     padding-right: 3rem;
     background-color: whitesmoke;
