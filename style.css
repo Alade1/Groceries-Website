@@ -1,6 +1,5 @@
 
 body {
-    overflow-x: hidden;
     font-family: var(--body-fonts);
     color: var(--main-text-color);
 }
@@ -17,8 +16,8 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border-bottom: 1px solid gray;
     padding-bottom: 8px;
 }
@@ -104,8 +103,8 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 3rem;
-    padding-right: 3rem;  
+    padding-left: 2rem;
+    padding-right: 2rem;  
     padding-top: 15px; 
 }
 .search{
@@ -162,8 +161,8 @@ header .header-container {
     background-color: black;
     height: 40px;
     color:white;
-    padding-left: 0.5rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
 }
 .list-items ul{
     display:flex;
@@ -177,11 +176,11 @@ header .header-container {
     color: white;
 }
 .hero-section{
-    padding-left: 3rem;
-    padding-right:3rem;
+    padding-left: 2rem;
+    padding-right:2rem;
     padding-top: 30px;
     background-color: #D3D3D3;
-    height: 700px;
+    height: 550px;
     width:85%;
     margin-top:30px;
     margin-left: 45px;
@@ -205,9 +204,9 @@ header .header-container {
     font-weight: 600;
 }
 .hero-title{
-    font-size: 38px;
+    font-size: 30px;
     font-family: var(--body-fonts);
-    width:80%;
+    width:90%;
     color: black;
     font-weight: 600;
 }
@@ -234,23 +233,27 @@ header .header-container {
 
 }
 .hero-assurance-1, .hero-assurance-2, .hero-assurance-3 , .hero-assurance-4{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap:10px;
+
 }
 .hero-assurance-1 span{
     font-weight: 600;
     color: black;
     font-size: 11px;
+   
 }
 .hero-assurance-1 p{
-    font-size: 9px;
+    font-size: 12px;
+   
 }
 .hero-assurance-2 span{
     font-weight: 600;
     color: black;
     font-size: 11px;
+    
 }
 .hero-assurance-3 span{
     font-weight: 600;
@@ -276,22 +279,22 @@ header .header-container {
     align-items: center;
     justify-content: flex-start;
     gap:80px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color: whitesmoke;
     padding-top:10px;
     position: relative;
     bottom: 40px;
-    margin-left: 6rem;
-    margin-right:10rem;
+    margin-left: 4.5rem;
+    margin-right:7rem;
     margin-top:20px;
     border-radius: 7px;
-    width: 75%;
-    height: 130px;
+    width: 80%;
+    height: 140px;
 
 }
 .hero-assurance i{
-    font-size: 30px;
+    font-size: 40px;
     color: #4aa02c;
 }
 
@@ -309,22 +312,22 @@ header .header-container {
     font-weight: 600;
 } 
 .Gas{
-    height: 150px;
-    width:180px;
+    height: 100px;
+    width:155px;
     border:none;
 }
 .category-images{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     
 }
 .category-image-1,.category-image-2,.category-image-3,.category-image-4,.category-image-5{
     border: 1px solid gray;
-    padding: 10px;
+    padding: 5px;
 }
 .category-image-1 p , .category-image-2 p, .category-image-3 p, .category-image-4 p, .category-image-5 p{
     display: flex;
