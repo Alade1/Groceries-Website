@@ -317,16 +317,17 @@ header .header-container {
     border:none;
 }
 .category-images{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right:2rem;
+
     
 }
 .category-image-1,.category-image-2,.category-image-3,.category-image-4,.category-image-5{
     border: 1px solid gray;
-    padding: 5px;
+    padding:5px;
 }
 .category-image-1 p , .category-image-2 p, .category-image-3 p, .category-image-4 p, .category-image-5 p{
     display: flex;
