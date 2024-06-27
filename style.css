@@ -317,10 +317,10 @@ header .header-container {
     border:none;
 }
 .category-images{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
     padding-left: 2rem;
     padding-right: 2rem;
     
@@ -378,7 +378,7 @@ header .header-container {
 .products-compilation{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
+    gap: 80px;
     padding-left: 2rem;
     padding-right: 2rem;
 
