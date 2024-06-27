@@ -181,7 +181,7 @@ header .header-container {
     padding-top: 30px;
     background-color: #D3D3D3;
     height: 550px;
-    width:85%;
+    width:87%;
     margin-top:30px;
     margin-left: 45px;
     margin-right:45px;
@@ -352,6 +352,50 @@ header .header-container {
     font-size: 28px;
     font-weight: 600;
 }
+.product-overview{
+    padding-top: 40px;
+}
+.pepper{
+    height: 140px;
+    width:210px;
+}
+.peppermint{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.peppermint i{
+    font-size: 20px;
+}
+.product-1,.product-2,.product-3,.product-4,.product-5,.product-6,.product-7, .product-8, .product-9{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width:210px;
+    height:220px;
+    padding:20px;
+
+}
+.products-compilation{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.name{
+    color:black;
+    font-size: 12px;
+    font-weight: 500;
+}
+.pepper-price{
+    font-size: 10px;
+    font-weight:600;
+    color:black;
+}
+
+
+
 
 
 
