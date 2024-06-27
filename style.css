@@ -378,7 +378,7 @@ header .header-container {
 .products-compilation{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 80px;
+    gap: 60px;
     padding-left: 2rem;
     padding-right: 2rem;
 
