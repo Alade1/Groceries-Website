@@ -378,7 +378,7 @@ header .header-container {
 .products-compilation{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
+    gap: 80px;
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -393,6 +393,122 @@ header .header-container {
     font-weight:600;
     color:black;
 }
+.newsletter{
+    padding-top:50px;
+}
+.newsletter-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:120px;
+    background-color: whitesmoke;
+
+}
+.subscribe{
+    width: 100%;
+    padding-left:2rem;
+}
+.socials-icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    padding-right: 2rem;
+    position: relative;
+    bottom: 6px;
+}
+
+.about-newsletter{
+    font-size: 13px;
+}
+.letter{
+    font-size: 14px;
+    font-weight:700;
+    color: black;
+}
+.icon{
+    color: #4aa02c;
+}
+.input-news{
+    width: 300px;
+    height: 20px;
+    border-width: 1px;
+    border-radius: 4px;
+    border: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.input-news::placeholder {
+    color: #999; /* Change the color of the placeholder text */
+    font-size:12px; /* Optional: Make the placeholder text italic */
+    opacity: 1; /* Optional: Ensure the placeholder text is fully opaque */
+    font-family: var(--body-fonts);
+    padding-left: 5px;
+    outline: none;
+}
+.input-nav:focus::placeholder {
+    color: transparent; 
+}
+.subscribe-button{
+    height: 25px;
+    width: 90px;
+    font-family: 'poppins';
+    background-color: #4aa02c;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom:24px;
+    left:290px;
+    color: white;
+
+}
+.account ul a, .helps ul a , .proxy ul a, .cart ul a{
+    text-decoration: none;
+    font-size: 10px;
+    color:white;
+}
+.account ul li, .helps ul li , .proxy ul li, .cart ul li{
+    list-style: none;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:40px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #333;
+}
+.footer-base{
+    width:30%;
+}
+.account p,.cart p{
+    padding-left: 20px;
+    color:white;
+    font-size: 18px;
+}
+.helps p, .proxy p{
+    padding-left:40px;
+    color:white;
+    font-size:18px;
+}
+.proxy p{
+    padding-top: 30px;
+}
+.contact{
+    color: white;
+    font-size: 13px;
+}
+.account p{
+    padding-top: 30px;
+}
+.about{
+    font-size: 10px;
+    color:white;
+}
+
+
+
 
 
 
