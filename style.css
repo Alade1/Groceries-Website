@@ -485,25 +485,21 @@ footer{
     width:30%;
 }
 .account p,.cart p{
-    padding-left: 20px;
+    text-align: center;
     color:white;
-    font-size: 18px;
+    font-size: 14px;
 }
 .helps p, .proxy p{
-    padding-left:40px;
+  text-align: center;
     color:white;
-    font-size:18px;
+    font-size:14px;
 }
-.proxy p{
-    padding-top: 30px;
-}
+
 .contact{
     color: white;
     font-size: 13px;
 }
-.account p{
-    padding-top: 30px;
-}
+
 .about{
     font-size: 10px;
     color:white;
