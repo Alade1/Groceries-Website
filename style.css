@@ -399,8 +399,8 @@ header .header-container {
 .newsletter-section{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap:120px;
+    justify-content: flex-start;
+    gap:90px;
     background-color: whitesmoke;
 
 }
@@ -477,6 +477,8 @@ header .header-container {
     gap:40px;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+footer{
     background-color: #333;
 }
 .footer-base{
