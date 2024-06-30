@@ -456,8 +456,7 @@ header .header-container {
     border-radius: 20px;
     color: white;
     position: relative;
-    bottom: 25px;
-    left: 280px;
+    right: 13px;
 
 }
 .account ul a, .helps ul a , .proxy ul a, .cart ul a{
