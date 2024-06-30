@@ -400,22 +400,20 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap:90px;
+    gap:60px;
     background-color: whitesmoke;
+    padding-left: 2rem;
+    padding-right:2rem;
 
 }
 .subscribe{
-    width: 100%;
-    padding-left:2rem;
+    width: 40%;
 }
 .socials-icon{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 4px;
-    padding-right: 2rem;
-    position: relative;
-    bottom: 6px;
 }
 
 .about-newsletter{
@@ -456,10 +454,10 @@ header .header-container {
     background-color: #4aa02c;
     border: none;
     border-radius: 20px;
-    position: relative;
-    bottom:24px;
-    left:290px;
     color: white;
+    position: relative;
+    bottom: 25px;
+    left: 280px;
 
 }
 .account ul a, .helps ul a , .proxy ul a, .cart ul a{
@@ -474,7 +472,7 @@ header .header-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap:40px;
+    gap:30px;
     padding-left: 2rem;
     padding-right: 2rem;
 }
